@@ -1,4 +1,3 @@
-vim.opt.clipboard = "unnamedplus"
 vim.opt.wrap = false
 
 vim.opt.number = true
