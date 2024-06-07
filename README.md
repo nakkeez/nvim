@@ -10,33 +10,46 @@ mapleader = " "
 
 | Keymap | Command |
 | --- | --- |
-| <leader> | vim.cmd.Ex |
+| <leader>pv | Open file structure |
+| <leader>y / <leader>Y | Copy to clipboard |
 
 ### Plugins
 
 #### NvimTree
 
-| Keymap | Command |
+| Keymap | Description |
 | --- | --- |
-| <leader>pt | vim.cmd.NvimTreeFocus |
-| <leader>pc | vim.cmd.NvimTreeCollapse |
-| <S-t> | vim.cmd.NvimTreeToggle |
-| <leader>pff | vim.cmd.NvimTreeFindFile |
+| <leader>pt | Focus to NvimTree |
+| <leader>pc | Collapse NvimTree recursively |
+| <S-t> | Toggle NvimTree |
+| <leader>pff | Find current file |
 
 #### Telescope
 
 | Keymap | Command |
 | --- | --- |
-| <leader>pf | vim.cmd.Telescope find_files |
-| <C-p> | vim.cmd.Telescope git_files |
-| <leader>pws | vim.cmd.Telescope grep_string({search = vim.fn.expand("<cword>")}) |
-| <leader>pWs | vim.cmd.Telescope grep_string({search = vim.fn.expand("<cWORD>")}) |
-| <leader>ps | vim.cmd.Telescope grep_string({search = vim.fn.input("Grep > ")}) |
-| <leader>vh | vim.cmd.Telescope help_tags |
+| <leader>pf | Find files in current directory |
+| <C-p> | Find git files |
+| <leader>pws | Find string (start) |
+| <leader>pWs | Find string (end) |
+| <leader>ps | Find string |
+| <leader>vh | List available help tags |
 
 #### Undotree
 
-| Keymap | Command |
+| Keymap | Description |
 | --- | --- |
-| <leader>u | vim.cmd.UndoTreeToggle |
+| <leader>u | Toggle Undotree |
 
+#### Harpoon
+
+| Keymap | Description |
+| --- | --- |
+| <leader>a | Add to harpoon list |
+| <C-e> | Open harpoon list |
+| <C-h> | Open first harpoon list entry |
+| <C-t> | Open second harpoon list entry |
+| <C-n> | Open third harpoon list entry |
+| <C-s> | Open fourth harpoon list entry |
+| <C-S-P> | Toggle previous entry stored in harpoon list |
+| <C-S-N> | Toggle next entry stored in harpoon list |
