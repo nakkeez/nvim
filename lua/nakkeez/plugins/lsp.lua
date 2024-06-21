@@ -32,31 +32,20 @@ return {
                 "astro",
                 -- Bash
                 "bashls",
-                -- C#
-                "omnisharp",
                 -- CSS
                 "cssls",
                 "cssmodules_ls",
                 "css_variables",
-                -- Docker
-                "dockerls",
-                "docker_compose_language_service",
                 -- ESLint
                 "eslint",
-                -- Elixir
-                "elixirls",
-                -- HTML
-                "html",
                 -- JSON
                 "jsonls",
-                -- JavaScript
+                -- TypeScript
                 "tsserver",
                 -- Lua
                 "lua_ls",
                 -- Python
                 "pylsp",
-                -- SQL
-                "sqlls",
                 -- Tailwind CSS
                 "tailwindcss",
             },
