@@ -70,3 +70,9 @@ mapleader = " "
 | Keymap | Description |
 | --- | --- |
 | `<leader>xx` | Toggle trouble diagnostics list |
+
+#### Cloak
+
+| Keymap | Description |
+| --- | --- |
+| `<leader>cc` | Toggle cloak mode |
