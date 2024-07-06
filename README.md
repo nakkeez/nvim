@@ -57,13 +57,18 @@ mapleader = " "
 
 #### LSP
 
-| Keymap | Description | 
+| Keymap | Description |
 | --- | --- |
 | `<C-p>` | Select previous item from the list |
 | `<C-n>` | Select next item from the list |
 | `<C-y>` | Confirm selection |
 | `<C-e>` | Abort |
 | `<C-Space>` | Complete |
+| `<leader>gd` | Go to definition |
+| `<leader>gr` | Show references |
+| `<leader>gi` | Go to implementation |
+| `<leader>gh` | Hover |
+| `<leader>gt` | Type definition |
 
 #### Trouble
 
