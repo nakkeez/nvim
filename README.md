@@ -16,31 +16,19 @@ mapleader = " "
 
 ### Plugins
 
-#### NvimTree
+#### Cloak
 
 | Keymap | Description |
 | --- | --- |
-| `<leader>pt` | Focus to NvimTree |
-| `<leader>pc` | Collapse NvimTree recursively |
-| `<S-t>` | Toggle NvimTree |
-| `<leader>pff` | Find current file |
+| `<leader>cc` | Toggle cloak mode |
 
-#### Telescope
-
-| Keymap | Command |
-| --- | --- |
-| `<leader>pf` | Find files in current directory |
-| `<C-p>` | Find git files |
-| `<leader>pws` | Find first part of active string |
-| `<leader>pWs` | Find whole active string |
-| `<leader>ps` | Find inputted string |
-| `<leader>vh` | List available help tags |
-
-#### Undotree
+#### Fugitive
 
 | Keymap | Description |
 | --- | --- |
-| `<leader>u` | Toggle Undotree |
+| `<leader>gs` | Git status |
+| `<leader>gf` | Git difference |
+| `<leader>pu` | Git push |
 
 #### Harpoon
 
@@ -70,14 +58,38 @@ mapleader = " "
 | `<leader>gh` | Hover |
 | `<leader>gt` | Type definition |
 
+#### NvimTree
+
+| Keymap | Description |
+| --- | --- |
+| `<leader>pt` | Focus to NvimTree |
+| `<leader>pc` | Collapse NvimTree recursively |
+| `<S-t>` | Toggle NvimTree |
+| `<leader>pff` | Find current file |
+
+#### Telescope
+
+| Keymap | Command |
+| --- | --- |
+| `<leader>pf` | Find files in current directory |
+| `<C-p>` | Find git files |
+| `<leader>pws` | Find first part of active string |
+| `<leader>pWs` | Find whole active string |
+| `<leader>ps` | Find inputted string |
+| `<leader>vh` | List available help tags |
+
 #### Trouble
 
 | Keymap | Description |
 | --- | --- |
 | `<leader>xx` | Toggle trouble diagnostics list |
 
-#### Cloak
+#### Undotree
 
 | Keymap | Description |
 | --- | --- |
-| `<leader>cc` | Toggle cloak mode |
+| `<leader>u` | Toggle Undotree |
+
+
+
+
