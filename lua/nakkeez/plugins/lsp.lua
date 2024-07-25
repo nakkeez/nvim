@@ -40,6 +40,8 @@ return {
                 "eslint",
                 -- JSON
                 "jsonls",
+                -- Elixir
+                "elixirls",
                 -- TypeScript
                 "tsserver",
                 -- Lua
