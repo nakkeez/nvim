@@ -35,11 +35,11 @@ mapleader = " "
 | Keymap | Description |
 | --- | --- |
 | `<leader>a` | Add to harpoon list |
-| `<C-e>` | Open harpoon list |
-| `<C-h>` | Open first harpoon list entry |
-| `<C-t>` | Open second harpoon list entry |
-| `<C-n>` | Open third harpoon list entry |
-| `<C-s>` | Open fourth harpoon list entry |
+| `<Tab>` | Open harpoon list |
+| `<S-1>` | Open first harpoon list entry |
+| `<S-2>` | Open second harpoon list entry |
+| `<S-3>` | Open third harpoon list entry |
+| `<S-4>` | Open fourth harpoon list entry |
 | `<C-S-P>` | Toggle previous entry stored in harpoon list |
 | `<C-S-N>` | Toggle next entry stored in harpoon list |
 
