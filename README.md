@@ -57,6 +57,7 @@ mapleader = " "
 | `<leader>gi` | Go to implementation |
 | `<leader>gh` | Hover |
 | `<leader>gt` | Type definition |
+| `<leader>gn` | Rename |
 
 #### NvimTree
 
