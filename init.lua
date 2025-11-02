@@ -1,1 +1,1 @@
-require("nakkeez")
+require(".")

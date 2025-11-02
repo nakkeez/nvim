@@ -1,6 +1,6 @@
-require("nakkeez.options")
-require("nakkeez.keymaps")
-require("nakkeez.lazy")
+require("config.options")
+require("config.keymaps")
+require("config.lazy")
 
 local augroup = vim.api.nvim_create_augroup
 local NakkeezGroup = augroup("NakkeezGroup", {})
