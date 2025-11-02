@@ -71,12 +71,14 @@ mapleader = " "
 
 | Keymap | Command |
 | --- | --- |
-| `<leader>pf` | Find files in current directory |
-| `<C-p>` | Find git files |
+| `<leader>ff` | Find files in current directory |
+| `<leader>fu` | Find git files |
 | `<leader>pws` | Find first part of active string |
-| `<leader>pWs` | Find whole active string |
-| `<leader>ps` | Find inputted string |
-| `<leader>vh` | List available help tags |
+| `<leader>fW` | Find whole active string |
+| `<leader>fs` | Find string under cursor or selection in currect directory |
+| `<leader>fl` | Find string in current directory using live grep |
+| `<leader>fb` | List open buffers |
+| `<leader>fh` | List available help tags |
 
 #### Trouble
 
